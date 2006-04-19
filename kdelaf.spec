@@ -1,8 +1,5 @@
 #
 # Conditional build:
-%bcond_with	tests		# build with tests
-%bcond_without	tests		# build without tests
-#
 Summary:	KDE Look and Feel for Java
 Name:		kdelaf
 Version:	060417
@@ -14,10 +11,10 @@ Source0:	http://kdelaf.freeasinspeech.org/dl.php?file=%{name}.tgz
 Source1:	http://kdelaf.freeasinspeech.org/dl.php?file=%{name}worker.tgz
 # Source1-md5:	2fc3e398891158bb136c6e26c3c70b62
 URL:		http://kdelaf.freeasinspeech.org
-BuildRequires:	qt-devel
-BuildRequires:	kdelibs-devel
 BuildRequires:	autoconf
 BuildRequires:	automake
+BuildRequires:	kdelibs-devel
+BuildRequires:	qt-devel
 Requires:	jre
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
