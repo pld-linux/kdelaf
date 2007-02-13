@@ -1,5 +1,5 @@
 Summary:	KDE Look and Feel for Java
-Summary(pl.UTF-8):   Wygląd i zachowanie KDE dla Javy
+Summary(pl.UTF-8):	Wygląd i zachowanie KDE dla Javy
 Name:		kdelaf
 Version:	060417
 Release:	1
